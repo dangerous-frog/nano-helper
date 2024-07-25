@@ -12,7 +12,7 @@ use ratatui::{
     widgets::Paragraph,
     Terminal,
 };
-
+// For tests
 fn main() -> Result<()> {
     stdout().execute(EnterAlternateScreen)?;
     enable_raw_mode()?;
